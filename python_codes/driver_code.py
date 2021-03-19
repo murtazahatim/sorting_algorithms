@@ -2,6 +2,7 @@ import random
 from bubble_sort import bubble_sort
 from selection_sort import selection_sort
 from insertion_sort import insertion_sort
+from merge_sort import merge_sort
 from quick_sort import quick_sort
 
 
@@ -22,3 +23,11 @@ print('Selection Sort: ' + str(selection_sort(lst)))
 lst = generate_random_list(100)
 
 print('Insertion Sort: ' + str(insertion_sort(lst)))
+
+lst = generate_random_list(100)
+
+print('Merge Sort: ' + str(merge_sort(lst)))
+
+lst = generate_random_list(100)
+
+print('Quick Sort: ' + str(quick_sort(lst)))
