@@ -4,6 +4,8 @@ from selection_sort import selection_sort
 from insertion_sort import insertion_sort
 from merge_sort import merge_sort
 from quick_sort import quick_sort
+from heap_sort import heap_sort
+from counting_sort import counting_sort
 
 
 def generate_random_list(length):
@@ -31,3 +33,11 @@ print('Merge Sort: ' + str(merge_sort(lst)))
 lst = generate_random_list(100)
 
 print('Quick Sort: ' + str(quick_sort(lst)))
+
+lst = generate_random_list(100)
+
+print('Heap Sort: ' + str(heap_sort(lst)))
+
+lst = generate_random_list(100)
+
+print('Counting Sort: ' + str(counting_sort(lst)))
